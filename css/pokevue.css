@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Pokemon', 'Arial';
+    -webkit-text-stroke: 0.1rem #003375;
+    color: #fcba03;
+}
+.pokemon-sprite{
+    width: 100%;
+    height: 100%;
+}
+h2,h1{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+}
+.poke-card{
+    padding: 0%;
+}
+.card{
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+/*Controles*/
+.controls{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    padding: 0%;
+    width:5rem;
+    height: 2rem;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent; 
+    outline: none;
+}
+#page-num{
+    position: relative;
+    bottom: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+#btn-menos{
+    border-left: 5rem solid #f0ad4e;
+}
+#btn-mas{
+    border-right: 5rem solid #f0ad4e;
+}
+/*Pokedex*/
+#shadowed-background{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#pokedex{
+    position: absolute;
+    background-color: #CE2211;
+    height: 50%;
+    top:25%;
+    left:25%;
+    border-radius: 2rem;
+}
+#searcher{
+    display: flex;
+    height:3rem;
+    padding: 0%;
+    border-radius:5rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+#searcher input, #searcher button{
+    padding: 0%;
+    border:none;
+}
+#searcher input{
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    padding-left: 2rem;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    -webkit-text-stroke:0;
+    color: #333333;
+    caret-color: #444444;
+}
+#searcher button{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #d9534f;
+    outline: none;
+}
+#searcher button span img{
+    width: 80%;
+    height: 70%;
+    color:blue;
+}
+#searcher button span{
+    padding-top: 2rem;
+}
+#searcher input:focus{
+    outline: none;
+}
+#pokedex #imagen img{
+    width: 50%;
+}
+#pokedex #imagen{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+#pokedex #marco{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: silver;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+
